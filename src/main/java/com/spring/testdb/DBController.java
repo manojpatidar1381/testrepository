@@ -15,6 +15,6 @@ public class DBController {
 	@PostMapping("/save")
 	public Person saveData(@RequestBody Person person) 
 	{
-		return testRepository.save(person);
+     		return testRepository.save(person);
 	}
 }
